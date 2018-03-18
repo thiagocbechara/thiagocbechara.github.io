@@ -1,0 +1,17 @@
+/* Your custom styles */
+main{
+    height: 46.6vmax;
+}
+
+.pomodoro.min-chart{
+    width: 200px;
+    height: 200px;
+}
+
+.pomodoro.min-chart .percent{
+    font-size: 3em;
+    line-height: 200px;
+}
+.pomodoro.min-chart .percent:after{
+    content: 'min';
+}

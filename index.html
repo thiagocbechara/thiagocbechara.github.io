@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="utf-8" />
+    <title>Pomodoro Task Manager</title>
+</head>
+
+<body>
+    <main class="purple-gradient">
+        <div class="container">
+            <section class="section">
+                <h1 class="text-center white-text">Pomodoro Task Manager</h1>
+                <div class="row justify-content-md-center">
+                    <div id="pomodoro-container" class="card text-center col-lg-8 card-cascade wider">
+                        <div class="view gradient-card-header peach-gradient">
+                            <span class="min-chart pomodoro" id="chart-sales" data-percent="0">
+                                <span class="percent"></span>
+                            </span>
+                        </div>
+                        <div class="card-body">
+                            <button name="start-pomodoro" type="button" class="btn btn-primary btn-rounded" data-time="pomodoro" data-text="Pomodoro">Start Pomodoro</button>
+                            <button name="start-short-break" type="button" class="btn btn-secondary btn-rounded" data-time="shortBreak" data-text="Short Break">Start short break</button>
+                            <button name="start-long-break" type="button" class="btn btn-info btn-rounded" data-time="longBreak" data-text="Long Break">Start long break</button>
+                            <button name="stop-timer" type="button" class="btn btn-danger btn-rounded">Stop Timer</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
