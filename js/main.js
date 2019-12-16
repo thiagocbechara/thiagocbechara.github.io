@@ -84,7 +84,7 @@
 	
 
 	var carousel = function() {
-		$('.home-slider').owlCarousel({
+		$('.home-slider, .statements-container').owlCarousel({
 	    loop:true,
 	    autoplay: true,
 	    margin:0,
