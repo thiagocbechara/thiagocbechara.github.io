@@ -29,7 +29,7 @@ const drawItem = (item) => {
     let itemNode = itemTemplate
         .replace('{{item-code}}', item.code ? `${item.code} -` : '')
         .replace('{{item-name}}', item.nome)
-        .replace('{{item-quantity}}', item.quantidade ? `${item.quantidade}` : '')
+        .replace('{{item-quantity}}', item.quantidade ? `(${item.quantidade})` : '')
         .replace('{{item-price}}', item.preco)
         .replace('{{item-description}}', item.descricao || '');
     return itemNode;
